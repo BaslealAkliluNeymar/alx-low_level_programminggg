@@ -1,12 +1,10 @@
 #include "main.h"
 
 /**
-* *str_cpy - copies th estring to be printed
+* *_strcpy - copies th estring to be printed
 * include in t(\0)
 * @dest: pinter to the buffer
 * @src: string to be copied
-*
-
 * Return: the poiner to dest
 */
 char *_strcpy(char *dest, char *src)
