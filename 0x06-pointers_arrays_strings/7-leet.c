@@ -2,8 +2,7 @@
 
 /**
 * leet - codes the message given to it
-* @a: values of the letters
-* @b: numbeircal values 
+* @c: values of the letters
 * Return: the encoded character
 */
 
