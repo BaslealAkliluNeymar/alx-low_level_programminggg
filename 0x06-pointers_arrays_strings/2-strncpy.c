@@ -11,15 +11,15 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 int i = 0;
-int len = 0;
-while (src[i] != '\0' && i < n )
-{
-len++;
-}
-for (i = 0; i <= len; i++)
+while (src[i] != '\0' && i < n)
 {
 dest[i] = src[i];
+i++;
 }
+hile (i < n)
+{
 dest[i] = '\0';
+i++;
+}
 return (dest);
 }
