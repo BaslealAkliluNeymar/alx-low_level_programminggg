@@ -16,7 +16,7 @@ int i;
 int j;
 for (i = 0; c[i] != '\0'; i++)
 {
-for (j = 0; j < i; j++)
+for (j = 0; j < 10; j++)
 {
 if (c[i] == a[i])
 {
