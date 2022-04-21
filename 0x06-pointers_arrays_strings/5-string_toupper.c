@@ -2,19 +2,19 @@
 
 /**
 * string_toupper -  changes the string to upper case
-* @c: the variable to be chnged
+* @s: the variable to be chnged
 * Return: the vhanges cariale is returned
 */
 
-char *string_toupper(char *c)
+char *string_toupper(char *s)
 {
 int i;
-for (i = 0; c[i] != '\0'; i++)
+for (i = 0; s[i] != '\0'; i++)
 {
-if (c[i] >= 'a' && c[i] =< 'z')
+if (s[i] >= 'a' && s[i] =< 'z')
 {
-c[i] = c[i] - 32;
+s[i] = s[i] - 32;
 }
-return (c);
+return (s);
 }
 }
