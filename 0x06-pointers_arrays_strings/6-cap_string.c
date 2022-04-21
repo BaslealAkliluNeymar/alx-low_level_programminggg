@@ -2,7 +2,7 @@
 
 /**
 * cap_string -  to capitalize first letters
-* @s: string to modify
+* @c: string to modify
 * Return: characters of all chapitzalised
 */
 
