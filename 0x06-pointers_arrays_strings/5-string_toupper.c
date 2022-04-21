@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 * string_toupper -  changes the string to upper case
 * @s: the variable to be chnged
@@ -15,6 +14,6 @@ if (s[i] >= 'a' && s[i] =< 'z')
 {
 s[i] = s[i] - 32;
 }
-return (s);
 }
+return (s);
 }
