@@ -1,11 +1,12 @@
-#include <stdlib.h>
+#include <stdio.h>
 
 /**
- * main - pritns the file name
+ * main - pritns the file nam
+ *
  * Return: 0(Success)
  */
 int main(void)
 {
-printf("%s", __FILE__);
+printf("%s\n", __FILE__);
 return 0;
 }
