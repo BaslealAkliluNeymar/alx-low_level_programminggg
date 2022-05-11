@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include "function_pointers.h"
+/**
+ * int_index - prints the index of the number in the array
+ * Return: Always(0) Success
+ */
 
 int int_index(int *array, int size, int (*cmp)(int)){
 int  i = 0;
