@@ -6,11 +6,12 @@
  * Return: the resulting sum
  */
 
-int sum_them_all(int args, ...)
+int sum_them_all(const unsigned int args, ...)
 {
 va_list ap;
 va_start(ap,args);
-int i = 0;sum = 0;
+unsigned int i;
+int sum = 0;
 for (i = 0; i < args; i++)
 {
 sum += va_args(ap,int);
