@@ -17,5 +17,5 @@ for (i = 0; i < args; i++)
 sum += va_args(ap,int);
 }
 va_end(ap);
-return sum;
+return (sum);
 }
